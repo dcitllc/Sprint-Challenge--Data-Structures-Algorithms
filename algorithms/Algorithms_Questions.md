@@ -1,10 +1,13 @@
 # Analysis of Algorithms
+
 **Exercise I**: _Give an analysis of the running time of each snippet of pseudocode with respect to the input size n of each of the following:_
+
 ```
 a)  a = 0
-    while (a < n * n * n) 
+    while (a < n * n * n)
       a = a + n * n
 ```
+
 ```
 b)  sum = 0
     for (i = 0; i < n; i++)
@@ -13,6 +16,7 @@ b)  sum = 0
           for (l = k + 1; l < 10 + k; l++)
             sum++
 ```
+
 ```
 c)  bunnyEars = function(bunnies) {
       if (bunnies == 0) return 0
